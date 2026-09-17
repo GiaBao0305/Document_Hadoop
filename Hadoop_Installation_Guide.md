@@ -2,15 +2,15 @@
 
 ## 1. Tổng thể các công việc
 
-| STT | Nội dung công việc | Các công việc chi tiết |
-| :-- | :----------------- | :--------------------- |
-| 1 | Chuẩn bị môi trường | wsl --install → cài Ubuntu → cài Java 17 → tải/giải nén Hadoop → cấu hình JAVA_HOME, HADOOP_HOME, PATH → kiểm tra hadoop version |
-| 2 | Cài đặt và cấu hình SSH | Cài SSH → cài rsync → tạo SSH Key → thêm Key vào authorized_keys → phân quyền → kiểm tra ssh localhost |
-| 3 | Cấu hình và thực hành HDFS | Cấu hình core-site.xml → hdfs-site.xml → tạo thư mục NameNode/DataNode → format NameNode → start-dfs.sh → kiểm tra bằng jps → tạo thư mục trên HDFS → đưa file lên HDFS → kiểm tra HDFS Web UI |
-| 4 | Chạy chương trình WordCount mẫu | Chuẩn bị file input → đưa input lên HDFS → sử dụng chương trình WordCount có sẵn của Hadoop → chạy chương trình → kiểm tra kết quả |
-| 5 | Cấu hình YARN và kiểm tra | Cấu hình mapred-site.xml → cấu hình yarn-site.xml → start-yarn.sh → kiểm tra bằng jps → mở localhost:8088 → kiểm tra Job MapReduce |
-| 6 | Tự viết chương trình WordCount | Viết Mapper → viết Reducer → viết Driver → biên dịch chương trình → đóng gói thành file .jar |
-| 7 | Chạy chương trình WordCount tự viết và kiểm tra kết quả | Chuẩn bị input → đưa input lên HDFS → chạy file .jar → kiểm tra output trên HDFS → kiểm tra Job trên YARN Web UI |
+| STT | Nội dung công việc | Các công việc chi tiết | Phân công |
+| :-- | :----------------- | :--------------------- | :-------- |
+| 1 | Chuẩn bị môi trường | wsl --install → cài Ubuntu → cài Java 17 → tải/giải nén Hadoop → cấu hình JAVA_HOME, HADOOP_HOME, PATH → kiểm tra hadoop version | Thùy Dung |
+| 2 | Cài đặt và cấu hình SSH | Cài SSH → cài rsync → tạo SSH Key → thêm Key vào authorized_keys → phân quyền → kiểm tra ssh localhost | Thùy Dung |
+| 3 | Cấu hình và thực hành HDFS | Cấu hình core-site.xml → hdfs-site.xml → tạo thư mục NameNode/DataNode → format NameNode → start-dfs.sh → kiểm tra bằng jps → tạo thư mục trên HDFS → đưa file lên HDFS → kiểm tra HDFS Web UI | |
+| 4 | Chạy chương trình WordCount mẫu | Chuẩn bị file input → đưa input lên HDFS → sử dụng chương trình WordCount có sẵn của Hadoop → chạy chương trình → kiểm tra kết quả | |
+| 5 | Cấu hình YARN và kiểm tra | Cấu hình mapred-site.xml → cấu hình yarn-site.xml → start-yarn.sh → kiểm tra bằng jps → mở localhost:8088 → kiểm tra Job MapReduce | Gia Bảo |
+| 6 | Tự viết chương trình WordCount | Viết Mapper → viết Reducer → viết Driver → biên dịch chương trình → đóng gói thành file .jar | Gia Bảo |
+| 7 | Chạy chương trình WordCount tự viết và kiểm tra kết quả | Chuẩn bị input → đưa input lên HDFS → chạy file .jar → kiểm tra output trên HDFS → kiểm tra Job trên YARN Web UI | |
 
 ## 1. Chuẩn bị môi trường:
 
